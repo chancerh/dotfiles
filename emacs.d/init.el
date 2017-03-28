@@ -1,7 +1,7 @@
 ;; Autoinstall from http://stackoverflow.com/questions/10092322/how-to-automatically-install-emacs-packages-by-specifying-a-list-of-package-name
 
 ; list the packages you want
-(setq package-list '(auto-complete company elpy find-file-in-project highlight-indentation markdown-mode))
+(setq package-list '(auto-complete company elpy find-file-in-project highlight-indentation markdown-mode popup pyvenv yasnippet))
 
 ; list the repositories containing them
 (setq package-archives '(("elpa" . "http://tromey.com/elpa/")
